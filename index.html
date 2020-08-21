@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/w3-css/w3.css">
+    <link rel="stylesheet" href="/style.css">
+    <title>form</title>
+</head>
+<body>
+ 
+    <div class="container">
+        <form id="add-form">
+          <label for="name">User Name</label>
+          <input type="text" 
+                 id="name" 
+                 name="name" 
+                 placeholder="Your name.." 
+                 autocomplete="off">
+      
+          <label for="course">My Course</label>
+          <input type="text" 
+                 id="course" 
+                 name="course" 
+                 placeholder="Your Course" 
+                 autocomplete="off">
+      
+          <label for="author">My Author</label>
+          <input type="text" 
+                 id="author" 
+                 name="author" 
+                 placeholder="Your Author" 
+                 autocomplete="off">
+
+          <input type="submit" value="Submit">
+        </form>
+        <div id="add-card"></div>
+      </div>
+      
+    <script src="/main.js"></script>
+</body>
+</html>
